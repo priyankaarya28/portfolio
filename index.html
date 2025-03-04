@@ -8,69 +8,95 @@
 </head>
 <body>
     <header>
-        <div class="profile">
-            <img src="img.jpg" alt="Profile Image">
-            <h1>priyanka arya</h1>
-            <p>Web engineer</p>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <section id="about">
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Write a brief description about yourself here.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
-            <!-- Add more project cards as needed -->
+        <div class="about-content">
+            <img src="img.jpg" alt="Your Name" class="profile-img">
+            <p>Hello! I'm a web developer passionate about creating responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and the MERN stack (MongoDB, Express, React, Node.js).</p>
         </div>
     </section>
 
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo">
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Logo">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB Logo">
+                <p>MongoDB</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express Logo">
+                <p>Express</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js Logo">
+                <p>Node.js</p>
+            </div>
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo">
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Employee Wellness Dashboard</h3>
+            <p>This is a responsive website built using HTML, CSS, and JavaScript. It showcases my skills and projects.</p>
+            <a href="https://priyankaarya28.github.io/employeeWellnessDashboard/" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Quiz app</h3>
+            
+            <p>it is a quiz app</p>
+            <a href="https://priyankaarya28.github.io/quiz-app/" class="btn">View Project</a>
+        </div>
+        
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>9131972081</p>
+        <p>If you'd like to get in touch, feel free to email me at:</p>
+        <p><a href="priyanka.arya00001@gmail.com" class="email-link">priyanka.arya00001@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/priyankaarya28">github</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/priyanka-arya-a50ba126a/">linkedin</a></p>
+    </section>
     <section id="resume">
         <h2>Resume</h2>
-        <a href="resume.pdf" download>Download Resume</a>
+        <a href="https://drive.google.com/file/d/1XOA8XnRrkh3_ZyjjsjNEyuc5QOUsfQPd/view?usp=sharing" download>Download Resume</a>
     </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-info">
-            <p>Email: your.email@example.com</p>
-            <p>Phone: +123 456 7890</p>
-            <div class="social-links">
-                <a href="https://github.com/yourusername" target="_blank"><img src="github-logo.png" alt="GitHub"></a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn"></a>
-                <!-- Add more social links as needed -->
-            </div>
-        </div>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    
 
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
